@@ -11,3 +11,7 @@ se realizo un git clone
 se aumento una linea
 
 ## add mult
+
+## agregando animes
+-naruto
+-one piece
