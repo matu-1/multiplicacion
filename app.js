@@ -27,3 +27,5 @@ crearArchivo(base).then(nombre => console.warn(nombre))
 //   if (err) throw err;
 //   console.log(`El archivo tabla-${base} ha sido creado!!!`);
 // });
+
+console.log('agregando colsole log');
