@@ -1,20 +1,9 @@
 // import {crearArchivo} from './multiplicar/multiplicar';
-const {crearArchivo} = require('./multiplicar/multiplicar');
+// const {crearArchivo} = require('./multiplicar/multiplicar');
 
-var base = 6;
-crearArchivo(base).then(nombre => console.warn(nombre))
- .catch(err => console.log(err));
-
-
-
-
-
-
-
-
-
-
-
+// var base = 6;
+// crearArchivo(base).then(nombre => console.warn(nombre))
+//  .catch(err => console.log(err));
 
 
 // let data = '';
@@ -27,5 +16,6 @@ crearArchivo(base).then(nombre => console.warn(nombre))
 //   if (err) throw err;
 //   console.log(`El archivo tabla-${base} ha sido creado!!!`);
 // });
+process.env.NOMBRE = 'matias flores';
 
-console.log('agregando colsole log');
+console.log(process.env.NOMBRE);
