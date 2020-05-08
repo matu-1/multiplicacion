@@ -16,6 +16,6 @@
 //   if (err) throw err;
 //   console.log(`El archivo tabla-${base} ha sido creado!!!`);
 // });
-process.env.NOMBRE = 'matias flores';
+process.env.NOMBRE = 'matias flores ricaldez';
 
 console.log(process.env.NOMBRE);
