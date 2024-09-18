@@ -6,19 +6,6 @@
 //  .catch(err => console.log(err));
 
 
-const cargar = require('./src/cargar');
-
-cargar.agregar('naruto');
-
-
-
-
-
-
-
-
-
-
 // let data = '';
 // for (let i = 1; i < 11; i++) {
 //   console.log(`${base} * ${i} = ${base * i}`);
@@ -29,3 +16,6 @@ cargar.agregar('naruto');
 //   if (err) throw err;
 //   console.log(`El archivo tabla-${base} ha sido creado!!!`);
 // });
+process.env.NOMBRE = 'matias flores ricaldez';
+
+console.log(process.env.NOMBRE);
