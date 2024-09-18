@@ -1,12 +1,14 @@
 // import {crearArchivo} from './multiplicar/multiplicar';
-const {crearArchivo} = require('./multiplicar/multiplicar');
+// const {crearArchivo} = require('./multiplicar/multiplicar');
 
-var base = 6;
-crearArchivo(base).then(nombre => console.warn(nombre))
- .catch(err => console.log(err));
+// var base = 6;
+// crearArchivo(base).then(nombre => console.warn(nombre))
+//  .catch(err => console.log(err));
 
 
+const cargar = require('./src/cargar');
 
+cargar.agregar('naruto');
 
 
 
